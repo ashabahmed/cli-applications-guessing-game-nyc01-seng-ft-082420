@@ -6,6 +6,7 @@ def run_guessing_game
  input = gets.chomp
  
  if input == num
+   binding.pry
    puts "You guessed the correct number!"
   elsif input != num
   puts "Sorry! The computer guessed #{num}."
